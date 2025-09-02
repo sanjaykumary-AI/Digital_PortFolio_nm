@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay Kumar Y - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: linear-gradient(to right, #2c3e50, #3498db);
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        header .contact-info a, header .contact-info span {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        nav {
+            background: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav ul li a:hover {
+            color: #3498db;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+
+        #skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            list-style: none;
+        }
+
+        #skills ul li {
+            background: #3498db;
+            color: #fff;
+            padding: 0.5rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        #projects p {
+            font-style: italic;
+            color: #666;
+        }
+
+        #contact a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+
+            section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sanjay Kumar Y</h1>
+        <p>Software Developer | Hardware Developer | Front-End Developer | Back-End Developer | Data Analyst</p>
+        <p class="contact-info">
+            <a href="mailto:sanjaykumary@srmasc.ac.in">📧 sanjaykumary@srmasc.ac.in</a> |
+            <span>📍 Chennai, Tamil Nadu, India</span>
+        </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a 2nd-year B.Sc. Computer Science with Artificial Intelligence student at SRM Arts and Science College. I'm passionate about programming, data analysis, and machine learning, with hands-on experience in hardware troubleshooting and PC assembly.</p>
+            <p>Always eager to tackle real-world tech projects and grow my skills in software and hardware.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Programming & Tools</h3>
+            <ul>
+                <li>Python, Java, HTML</li>
+                <li>VS Code, Git, CLI</li>
+                <li>Front-End (HTML, CSS, JS basics)</li>
+                <li>PC Assembly, Hardware Troubleshooting</li>
+            </ul>
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Problem-solving</li>
+                <li>Teamwork</li>
+                <li>Adaptability</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>B.Sc. Computer Science with AI</strong><br>
+            SRM Arts and Science College, Kattankulathur<br>
+            2024 – 2027 (2nd Year)<br>
+            Studying AI, Machine Learning, Data Analysis, Python, Java, and Web Development.</p>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <p><strong>IBM Front End Developer Certificate</strong><br>
+            Skilled in HTML, CSS, JavaScript, and modern front-end tools.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Coming soon!</p>
+            <p>Currently working on:</p>
+            <ul>
+                <li>Python projects</li>
+                <li>Front-end web apps</li>
+                <li>Data analysis projects</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> <a href="mailto:sanjaykumary@srmasc.ac.in">sanjaykumary@srmasc.ac.in</a></p>
+            <p><strong>Location:</strong> Chennai, Tamil Nadu, India</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sanjay Kumar Y</p>
+    </footer>
+</body>
+</html>
